@@ -36,11 +36,3 @@ class CarWashStation:
             self.count_of_ratings += 1
             self.average_rating = (old_note + note) / self.count_of_ratings
         self.average_rating = round(self.average_rating, 1)
-
-
-bmw = Car(comfort_class=3, clean_mark=3, brand="BMW")
-audi = Car(comfort_class=4, clean_mark=9, brand="Audi")
-
-
-wash_station = CarWashStation(distance_from_city_center=6, clean_power=8,
-                              average_rating=3.9, count_of_ratings=11)
